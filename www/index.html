@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        
+        
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        
+       
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>       
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <title>Foobar Web Design</title>
+    </head>
+
+    <body>
+        <div class="app">
+            <div data-role="page" id="home">
+                <header data-role="header">
+                    <h1>Header</h1>
+                </header>
+                    <div data-role="content">
+                        <nav data-role="navbar">
+                            <ul>
+                                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    <h1>Welcome to Foobar</h1>
+                    </div>
+                <footer data-role="footer">
+                    <h1>Footer</h1>
+                </footer>
+            </div>
+
+             <div data-role="page" id="about">
+                <header data-role="header">
+                    <h1>About Foobar</h1>
+                    <nav data-role="navbar">
+                            <ul>
+                                <li><a href="#home" >Home</a></li>
+                                <li><a href="#about" class="ui-btn-active">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                </header>
+                <div data-role="content">
+                    <h1>this is About</h1>
+                </div>
+                <footer data-role="footer">
+                    <h1>Footer</h1>
+                </footer>
+            </div>
+
+             <div data-role="page" id="contact">
+                <header data-role="header">
+                    <h1>Foobar Contact</h1>
+                   <nav data-role="navbar">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+                            </ul>
+                        </nav>
+                </header>
+                    <div data-role="content">
+                    <h1>this is contact</h1>
+                </div>
+                <footer data-role="footer">
+                    <h1>Footer</h1>
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
